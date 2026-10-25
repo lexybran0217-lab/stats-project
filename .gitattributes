@@ -1,0 +1,6 @@
+# Preserve dataset bytes across platforms.
+*.csv -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+*.ipynb text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf

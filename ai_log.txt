@@ -1,0 +1,21 @@
+﻿AI Usage Record - 25 October 2026
+Tool: OpenAI Codex, this conversation.
+Scope: Asynchronous workflow planning, raw-data structure and quality checks, preparation code, and the address query list.
+Execution: The code was run on the supplied raw CSV. Prepared data and audit records were generated. The raw source was unchanged.
+Not performed: OneMap queries, MRT distance calculations, inflation adjustment, regression estimation, model performance evaluation or interpretation of research results.
+This log is not a complete course Declaration. Members should verify it, record subsequent use and prepare the required disclosure. Final judgments, results interpretation and final editing remain with the team.
+
+Notebook work - 25 October 2026
+Created and executed data_understanding.ipynb to import data/hdb.csv, check missing values and identical public records, standardise variable formats and generate descriptive statistics. Saved data/hdb_clean.csv while retaining all 240,919 records and the flagged records. The input table was not overwritten. No regression or research-results interpretation was performed.
+
+Language update - 25 October 2026
+Translated the project documentation, notebook explanations and comments into English. Dataset values, calculations and saved notebook outputs were preserved.
+
+Cleaned-data view - 25 October 2026
+Added Section 6 to data_understanding.ipynb with an independent read of data/hdb_clean.csv, a 10-row preview, column types and missing counts, numeric descriptive statistics, and an editable town/flat-type filter. Executed all 12 code cells in D:\MITB\Sem1\Stats\.venv, replacing stale error outputs. The cleaned values matched the existing dataset. All project data files were unchanged. No research conclusions were generated.
+
+Date fields and measurement units - 25 October 2026
+Updated data_understanding.ipynb and data/hdb_clean.csv to use separate integer year and month columns, replacing the combined period and redundant date aliases in the cleaned output. Retained 240,919 rows and all price values; the cleaned table now has 20 columns. Classified storey_range as an ordered categorical variable in Python and documented the floor-band meaning and unknown exact floor. Added SGD units to price previews, summaries and the field guide. Executed all 12 code cells in the Stats environment. The prepared input, address list and duplicate review file were unchanged.
+
+README synchronisation and cleaning review - 25 October 2026
+Checked the saved cleaned CSV against the prepared input, address list, date components, lease conversions, floor bounds, log prices, missing values and identical-public-field flags. All checks passed. Updated README_en.md with the raw/prepared/cleaned dataset distinctions, all 20 cleaned fields, units, ordered storey handling and current handover status. No additional routine cleaning was indicated by these checks. Dataset files and the notebook were not modified; the open unsaved notebook was left untouched.

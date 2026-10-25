@@ -1,0 +1,21 @@
+# Local environments and secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Python and Jupyter caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local editor settings, temporary files and prior notebook copy
+.vscode/
+backup.ipynb
+work/
+outputs/
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db

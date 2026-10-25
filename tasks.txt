@@ -1,0 +1,53 @@
+﻿Team Work Allocation
+Internal completion: Friday, 30 October 2026. Submission buffer: Saturday, 31 October 2026.
+Confirm official submission dates against the course schedule. Members should claim a role and record actual contributions daily.
+
+A - Data preparation | Due 26 Oct
+Review prepared data, lease conversions and the policy for identical public records; confirm the analysis period.
+Deliver the reviewed data dictionary and processing log; maintain one shared dataset version.
+Review B's address matching and merge row counts.
+
+B - Geocoding and MRT distance | Due 27 Oct
+Use data/addresses.csv. Test OneMap access and check approximately 20 addresses before batch processing.
+Deliver a coordinate table with match status and returned addresses, a failure list, distance code and results.
+Review A's address keys and text identifiers.
+
+C - EDA and unadjusted relationship | Due 28 Oct
+Use data/hdb_clean.csv to inspect the sample and existing variables and build the EDA notebook.
+After MRT distances are available, examine the unadjusted distance-price relationship.
+Deliver charts, dataset version, sample sizes and your own interpretation and limitations.
+Review D's work.
+
+D - Main regression models | Due 28 Oct
+Specify models based on the existing proposal and prepare the code and required-field list.
+After MRT distances are available, run baseline and adjusted regressions and diagnostics. Record whether comparisons use the same sample.
+Deliver reproducible code, results tables and your own interpretation and limitations.
+Review C's work.
+
+E - Historical coverage and extensions | Coverage check due 26 Oct; analysis due 28 Oct
+First help B verify MRT exit sources, coverage dates and historical opening information.
+Then analyse distance bands, town differences and changes over time, recording subgroup sample sizes.
+Deliver reproducible code, charts and your own interpretation and limitations.
+Check that F's integrated findings match the evidence confirmed by the team.
+
+F - Integration | Drafts due 29 Oct
+Set up the report and slide files; verify existing references using course-permitted methods; log missing inputs and team decisions.
+Integrate each member's text, charts, references, contributions and AI usage records.
+Each member writes their own results interpretation.
+Check the traceability of E's charts and code.
+
+Milestones
+25 Oct: Claim roles, agree key definitions and test a small address sample.
+26 Oct: Review prepared data, process addresses and prepare EDA/model frameworks.
+27 Oct: Release the shared dataset; record unmatched rates and usable sample sizes.
+28 Oct: Complete initial analysis and peer review; each member submits their own findings and limitations.
+29 Oct: Complete report and slide drafts.
+30 Oct: Rerun the workflow, check references and numbers, rehearse and package the submission.
+
+Daily update
+Completed: Deliverable link.
+Next: Task and delivery time.
+Blocked: Missing input and who can provide it.
+
+Analysis handover
+Dataset version, sample size, runnable code, charts, the author's interpretation and limitations, and open questions.
